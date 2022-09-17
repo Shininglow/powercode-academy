@@ -1157,4 +1157,49 @@ color: #EF5B63;
         background: #55CBDC;
         background-image: none;
     }
+
+    .cards-general-title {
+        font-family: var(---primary-font-family);
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .cards-general-title span {
+        color: #4FCC97;
+    }
+
+    .green-banner-mobile {
+        background: #4FCC97;
+        margin-top: 20px;
+        margin: 15px auto;
+        display: block;
+        padding: 15px;
+        width: 90%;
+        height: 332px;
+        color: var(--text-color-light-headings);
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .green-banner-heading {
+        font-family: var(---primary-font-family);
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+
+    .green-banner-text {
+        font-family: var(---secondary-font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+
+
+    }
  }
