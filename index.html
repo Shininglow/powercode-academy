@@ -217,21 +217,21 @@
         <div class="bottom-form">
             <p class="form-heading">Залишилися <strong>питання?</strong></p>
             <p class="form-text">Заповни форму і наш спеціаліст передзвонить тобі, щоб розповісти про деталі курсу і відповісти на питання, що тебе цікавлять.</p>
-            <form action="/my-handling-form-page" method="post">
+            <form class="contact-form-bottom" action="/my-handling-form-page" method="post">
                 <ul>
                     <li>
-                        <input type="text" id="name" name="user_name" placeholder="ІМ'Я" />
+                        <input class="contact-form-bottom-field" type="text" id="name" name="user_name" placeholder="ІМ'Я" />
                     </li>
                     <li>
-                        <input type="email" id="mail" name="user_email" placeholder="E-MAIL" />
+                        <input class="contact-form-bottom-field" type="email" id="mail" name="user_email" placeholder="E-MAIL" />
                     </li>
                     <li>
-                        <input type="tel" id="phone" name="phone" placeholder="ТЕЛЕФОН"
+                        <input class="contact-form-bottom-field" type="tel" id="phone" name="phone" placeholder="ТЕЛЕФОН"
                         pattern="+[0-9]{2}([0-9]{3})[0-9]{7}"
                         required>
                     </li>
                     <li class="button">
-                        <button type="submit">Відправити заявку</button>
+                        <button class="contact-form-bottom-btn" type="submit">Відправити заявку</button>
                     </li>
                 </ul>
             </form>
