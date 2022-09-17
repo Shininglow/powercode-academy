@@ -800,6 +800,15 @@ top: 2342px;
     font-family: var(---primary-font-family);
     font-size: 7em;
     font-weight: 700;
-  } {
+  } 
 
+<<<<<<< Updated upstream
 }
+=======
+
+  .contacts-section {
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-around;
+ }
+>>>>>>> Stashed changes
