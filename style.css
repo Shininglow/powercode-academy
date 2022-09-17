@@ -1,3 +1,662 @@
+/* offer */
+.offer {
+    position: absolute;
+    width: 1436.85px;
+    height: 455px;
+    left: 255px;
+    top: 1615px;
+    }
+
+/* Не можеш обрати свій курс */
+.text1
+{
+    position: absolute;
+    width: 765px;
+    height: 176px;
+    left: 305px;
+    top: 1645px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 88px;
+    /* or 138% */
+
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+/* Наші фахівці допоможуть */
+
+.text2 {
+    position: absolute;
+    width: 765px;
+    height: 102px;
+    left: 305px;
+    top: 1831px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+    /* or 131% */
+
+
+    color: #FFFFFF;
+}
+
+/* calm_border */
+
+
+.calm_border
+{
+    position: absolute;
+    width: 221px;
+    height: 60px;
+    left: 305px;
+    top: 1974px;
+}
+
+/* img group */
+
+.img_group{
+    position: absolute;
+    width: 521.08px;
+    height: 417.56px;
+    left: 1170.77px;
+    top: 1639.74px;
+}
+
+/* Mask Group */
+
+.mask_group
+{
+    position: absolute;
+    width: 1410px;
+    height: 455px;
+    left: 255px;
+    top: 1615px;
+}
+
+/* salaries in IT */
+
+.salaries_in_IT
+{
+    position: absolute;
+    width: 1410px;
+    height: 534px;
+    left: 255px;
+    top: 2190px;
+}
+
+/* Зарплати IT Фахівців */
+
+
+.salaries
+{
+    position: absolute;
+    width: 860px;
+    height: 88px;
+    left: 255px;
+    top: 2190px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 88px;
+    /* identical to box height, or 138% */
+
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+    color: #232F3C;
+}
+
+/* junior */
+
+.junior
+{
+    position: absolute;
+    width: 450px;
+    height: 420px;
+    left: 255px;
+    top: 2304px;
+}
+
+/* salary junior*/
+.salary_j{
+    position: absolute;
+    width: 135px;
+    height: 55px;
+    left: 275px;
+    top: 2629px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 55px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #232F3C;
+}
+
+/* junior */
+
+.text_j
+{
+    position: absolute;
+    width: 216px;
+    height: 66px;
+    left: 275px;
+    top: 2334px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #4FCC97;
+}
+
+/* 6month */
+
+.month6
+{
+    position: absolute;
+    width: 228px;
+    height: 46px;
+    left: 275px;
+    top: 2392px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 46px;
+    /* identical to box height, or 230% */
+
+    text-transform: uppercase;
+
+    color: #333333;
+}
+
+/* per month */
+
+
+.per_month_j
+{
+    position: absolute;
+    width: 106px;
+    height: 29px;
+    left: 275px;
+    top: 2675px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #333333;
+}
+
+    /* salary from */
+
+
+.salary_from_j
+{
+    position: absolute;
+    width: 108px;
+    height: 26px;
+    left: 275px;
+    top: 2604px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #333333;
+}
+
+/* Mask Group */
+
+.mask_group1
+{
+    position: absolute;
+    width: 450px;
+    height: 420px;
+    left: 255px;
+    top: 2304px;
+}
+    /* blob_6-8-702060 */
+
+
+.junior_picture{
+    position: absolute;
+    width: 474.36px;
+    height: 477.84px;
+    left: 371px;
+    top: 2335px;
+}
+
+/* middle */
+
+
+.middle
+{
+    position: absolute;
+    width: 450px;
+    height: 420px;
+    left: 735px;
+    top: 2304px;
+}
+
+/* salary_m */
+
+
+.salary_m
+{
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    left: 755px;
+    top: 2629px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 55px;
+/* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #232F3C;
+}
+
+/* middle */
+
+
+.text_m
+{
+    position: absolute;
+    width: 215px;
+    height: 66px;
+    left: 755px;
+    top: 2334px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #55CBDC;
+}
+
+/* 2years */
+
+
+.years2
+{
+    position: absolute;
+    width: 205px;
+    height: 46px;
+    left: 755px;
+    top: 2392px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 46px;
+/* identical to box height, or 230% */
+
+    text-transform: uppercase;
+
+    color: #333333;
+}
+
+/* per month */
+.per_month_m 
+{
+    position: absolute;
+    width: 106px;
+    height: 29px;
+    left: 755px;
+    top: 2675px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+/* identical to box height */
+
+
+    color: #333333;
+}
+
+/* salery from */
+
+
+.salary_from_m
+{
+    position: absolute;
+    width: 108px;
+    height: 26px;
+    left: 755px;
+    top: 2604px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #333333;
+}
+
+
+/* Mask Group */
+
+.mask_group2
+{
+    position: absolute;
+    width: 450px;
+    height: 420px;
+    left: 735px;
+    top: 2304px;
+}
+/* Group 98 */
+
+.middle_picture
+{
+    position: absolute;
+    width: 508.37px;
+    height: 508.52px;
+    left: 835.32px;
+    top: 2325.05px;
+}
+
+/* senior */
+
+.senior
+{position: absolute;
+width: 450px;
+height: 420px;
+left: 1215px;
+top: 2304px;
+}
+
+/* senior */
+
+.text_s
+{
+    position: absolute;
+    width: 211px;
+    height: 66px;
+    left: 1235.63px;
+    top: 2334px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+color: #EF5B63;
+}
+
+/* 4years */
+
+.years4
+{
+    position: absolute;
+    width: 206px;
+    height: 46px;
+    left: 1238.63px;
+    top: 2392px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 46px;
+/* identical to box height, or 230% */
+
+    text-transform: uppercase;
+
+    color: #333333;
+}
+
+/* salary_s */
+
+.salary_s
+{
+    position: absolute;
+    width: 166px;
+    height: 55px;
+    left: 1235px;
+    top: 2629px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 55px;
+/* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #232F3C;
+}
+
+/* per month */
+
+
+.per_month_s
+{
+    position: absolute;
+    width: 106px;
+    height: 29px;
+    left: 1235px;
+    top: 2675px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+/* identical to box height */
+
+    color: #333333;
+}
+
+/* salery from */
+
+
+.salary_from_s
+{
+    position: absolute;
+    width: 108px;
+    height: 26px;
+    left: 1235px;
+    top: 2604px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+/* identical to box height */
+
+    color: #333333;
+}
+
+/* Mask Group */
+
+.mask_group_3
+{
+    position: absolute;
+    width: 450px;
+    height: 420px;
+    left: 1215px;
+    top: 2304px;
+}
+
+/* Group 3 */
+
+.senior_picture 
+{position: absolute;
+width: 511.14px;
+height: 445.26px;
+left: 1350.51px;
+top: 2342px;
+}
+
+/* about PCA */
+
+.About_PCA
+{
+    position: absolute;
+    width: 1410px;
+    height: 582px;
+    left: 255px;
+    top: 2844px;
+}
+/* img */
+
+.image
+{
+    position: absolute;
+    width: 538.74px;
+    height: 582px;
+    left: 1126.26px;
+    top: 2844px;
+}
+/* text */
+
+.text_PCA
+{
+    position: absolute;
+    width: 854px;
+    height: 406px;
+    left: 255px;
+    top: 2956px;
+}
+
+/* Rectangle 23 */
+
+.rectangle
+{
+    position: absolute;
+    width: 10px;
+    height: 172px;
+    left: 255px;
+    top: 2956px;
+
+    background: #55CBDC;
+    border-radius: 36px;
+}
+/* Powercode academy */
+
+.PCA
+{
+    position: absolute;
+    width: 800px;
+    height: 76px;
+    left: 291px;
+    top: 2956px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+/* identical to box height */
+
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+    color: #232F3C;
+}
+
+/* це курси... */
+
+.courses
+{
+    position: absolute;
+    width: 818px;
+    height: 84px;
+    left: 291px;
+    top: 3048px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 42px;
+/* or 175% */
+
+    letter-spacing: 1px;
+
+    color: #232F3C;
+}
+
+/* наша місія... */
+
+.mission
+{
+    position: absolute;
+    width: 783px;
+    height: 204px;
+    left: 295px;
+    top: 3158px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 38px;
+/* or 173% */
+
+
+    color: #333333;
+}
+
 :root {
 
     --text-color-headings:  #232F3C;
