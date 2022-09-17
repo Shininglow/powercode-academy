@@ -877,6 +877,7 @@ top: 2342px;
 
 
  .form-heading {
+    margin: 0px 0px 36px 0px;
     font-family: var(---primary-font-family);
     font-weight: 300;
     font-size: 36px;
@@ -901,7 +902,27 @@ top: 2342px;
 
  .contact-form-bottom-field {
     margin-top: 16px;
-    padding-top: 20px;
+    padding: 10px 5px 10px 5px;
     width: 95%;
+    border-radius: 10px;
+    font-family: var(---secondary-font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
  }
 
+ .contact-form-bottom-btn {
+    margin-top: 30px;
+    padding: 10px 5px 10px 5px;
+    width: 98%;
+    background: var(--elements-color-bright);
+    color: var(--text-color-light-headings);
+    border-radius: 10px;
+    border: none;
+    font-family: var(---primary-font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+ }
