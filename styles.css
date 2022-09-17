@@ -1006,7 +1006,7 @@ color: #EF5B63;
 
     .mobile-hero-background {
         background-image: url("img/mobile-blob.png");
-        height: 100vh;
+        height: 55vh;
         text-align: center;
         color: var(--text-color-general);
     }
