@@ -1,3 +1,15 @@
+:root {
+
+    --text-color-headings:  #232F3C;
+    --text-color-general: #333333;
+    --text-color-light-headings: #F5F6F9;
+    --text-color-light: #fff;
+    --elements-color-bright: #EF5B63;
+    ---primary-font-family: 'Rubik', sans-serif;
+    ---secondary-font-family: 'IBM Plex Mono', monospace;
+  }
+
+
 /* offer */
 .offer {
     position: absolute;
@@ -657,16 +669,8 @@ top: 2342px;
     color: #333333;
 }
 
-:root {
 
-    --text-color-headings:  #232F3C;
-    --text-color-general: #333333;
-    --text-color-light-headings: #F5F6F9;
-    --text-color-light: #fff;
-    ---primary-font-family: 'Rubik', sans-serif;
-    ---secondary-font-family: 'IBM Plex Mono', monospace;
-  }
-
+/*gallery*/
 
 .container {
     padding-left: 15%;
@@ -781,6 +785,9 @@ top: 2342px;
     padding: 0;
 }
 
+
+/*partners*/
+
 .partners-section {
     padding-top: 10%;
 }
@@ -802,13 +809,54 @@ top: 2342px;
     font-weight: 700;
   } 
 
-<<<<<<< Updated upstream
-}
-=======
+/*contacts*/
 
   .contacts-section {
-    padding-top: 10%;
-    display: flex;
-    justify-content: space-around;
+    margin-top: 15%;
+    padding: 46px;
+    background-color: var(--text-color-headings);
+    border-radius: 20px;
+
  }
->>>>>>> Stashed changes
+
+ .map-button-1 {
+    background-color: var(--elements-color-bright);
+    padding: 12px 43px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-family: var(---secondary-font-family);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 10px;
+
+ }
+
+ .map-button-2 {
+    background-color: transparent;
+    padding: 12px 22px;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+    color: #fff;
+    font-family: var(---secondary-font-family);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 10px;
+
+ }
+
+ .contacts-list {
+    padding: 30px 0px;
+    color:#fff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: var(---secondary-font-family);
+    font-style: normal;
+ }
+
+ .social-media-icons-bottom {
+    padding-top: 70px;
+ }
