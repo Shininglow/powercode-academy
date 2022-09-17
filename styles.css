@@ -10,13 +10,13 @@
   }
 
 
-/* offer */
+/* offer*/
 .offer {
     position: absolute;
     width: 1436.85px;
     height: 455px;
     left: 255px;
-    top: 1615px;
+    top: 2800px;
     }
 
 /* Не можеш обрати свій курс */
@@ -925,6 +925,15 @@ top: 2342px;
     text-transform: uppercase;
  }
 
+ .contact-form-bottom-field :hover,
+ .contact-form-bottom-btn:hover {
+   box-shadow: rgba(37, 39, 89, 0.148) 0px 8px 8px 0;
+   transition: all 200ms ease;
+ }
+
+
+ /*footer*/
+
  footer {
     padding-left: 15%;
     padding-right: 15%;
@@ -935,6 +944,7 @@ top: 2342px;
     margin-top: 50px;
     padding: 34px 34px;
     background-color: #F5F6F9;
+    border-radius: 20px;
  }
 
  .footer-text {
@@ -942,4 +952,72 @@ top: 2342px;
     font-weight: 700;
     font-size: 16px;
     line-height: 32px;
+ }
+
+ .mobile-container {
+    display: none;
+ }
+
+ @media screen and (max-width: 760px) {
+    .desktop {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .mobile-container {
+        display: block;
+
+    }
+
+    .mobile-header-block {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .mobile-logo {
+        flex: 45%;
+
+    }
+    .mobile-phones {
+        flex: 40%;
+        font-family: var(---primary-font-family);
+        font-size: 12px;
+    }
+
+    .mobile-menu {
+        flex: 5%;
+    }
+
+    .mobile-hero-background {
+        background-image: url("img/mobile-blob.png");
+        height: 100vh;
+        text-align: center;
+        text-color: var(--text-color-general);
+    }
+    
+    .additional-heading {
+        font-family: var(---secondary-font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 80px;
+    }
+
+    .mobile-h1 {
+        font-family: var(---primary-font-family);
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 48px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
  }
