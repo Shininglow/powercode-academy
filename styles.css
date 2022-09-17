@@ -814,8 +814,9 @@ top: 2342px;
   .contacts-section {
     margin-top: 15%;
     padding: 46px;
-    background-color: var(--text-color-headings);
+    background-color: var(--text-color-general);
     border-radius: 20px;
+    z-index: -1;
 
  }
 
@@ -859,4 +860,23 @@ top: 2342px;
 
  .social-media-icons-bottom {
     padding-top: 70px;
+ }
+
+
+ .bottom-form {
+    z-index: 2;
+    width: 350px;
+    height: 26em;
+    margin-top: -46%;
+    padding: 46px;
+    background-color: var(--text-color-headings);
+    border-radius: 20px;
+    position: relative;
+    left: 52%;
+ }
+
+
+ .form-heading {
+    font-family: var(---primary-font-family);
+    
  }
