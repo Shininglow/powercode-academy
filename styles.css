@@ -970,7 +970,54 @@ top: 2342px;
     .mobile-container {
         display: block;
 
+    }
+
+    .mobile-header-block {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
 
 
+
+    .mobile-logo {
+        flex: 45%;
+
+    }
+    .mobile-phones {
+        flex: 40%;
+        font-family: var(---primary-font-family);
+        font-size: 12px;
+    }
+
+    .mobile-menu {
+        flex: 5%;
+    }
+
+    .mobile-hero-background {
+        background-image: url("img/mobile-blob.png");
+        height: 100vh;
+        text-align: center;
+        text-color: var(--text-color-general);
+    }
     
+    .additional-heading {
+        font-family: var(---secondary-font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 80px;
+    }
+
+    .mobile-h1 {
+        font-family: var(---primary-font-family);
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 48px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
  }
