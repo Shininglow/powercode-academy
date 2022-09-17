@@ -1017,6 +1017,7 @@ color: #EF5B63;
         font-size: 18px;
         line-height: 28px;
         margin-top: 80px;
+        margin-top: 10px;
     }
 
     .mobile-h1 {
@@ -1066,5 +1067,94 @@ color: #EF5B63;
         font-size: 16px;
         line-height: 18px;
         text-transform: uppercase;
+        margin-top: 10px;
+    }
+
+    .courses-section-mobile {
+        font-family: var(---primary-font-family);
+        color: var(--text-color-general);
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .tabs-flex-section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tab-column-1 {
+        flex: 33%;
+    }
+
+    .tab-column-2 {
+        flex: 33%;
+    }
+
+    .tab-column-3 {
+        flex: 33%;
+    }
+
+    .tab-button {
+        width: 95%;
+        border: 1px solid var(--text-color-general);
+        border-radius: 10px;
+        background-color: transparent;
+        color: var(--text-color-general);
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .tab-button:hover {
+        width: 95%;
+        border: none;
+        border-radius: 10px;
+        background-color: var(--elements-color-bright);
+        color: var(--text-color-light-headings);
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .single-card {
+        background: var(--text-color-headings);
+        background-image: url('img/semi-transparent-bg.png');
+        margin-top: 20px;
+        margin: 15px auto;
+        display: block;
+        padding: 15px;
+        width: 90%;
+        height: 180px;
+        color: var(--text-color-light-headings);
+        border-radius: 20px;
+    }
+
+    .card-description-text {
+        font-family: var(---secondary-font-family);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .h2-mobile-light {
+        margin-top: 65px;
+        font-family: var(---primary-font-family);
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .single-card:hover {
+        background: #55CBDC;
+        background-image: none;
     }
  }
