@@ -250,20 +250,25 @@
     color: #333333;
 }
 
-/* Mask Group */
+/* Mask junior */
 
-.mask_group1
+.mask_junior
 {
     position: absolute;
     width: 450px;
     height: 420px;
     left: 255px;
     top: 2304px;
+
+    background: #FFFFFF;
+    order: 1px solid #4FCC97;
+    border-radius: 20px;
 }
-    /* blob_6-8-702060 */
+    /* Junior */
 
 
-.junior_picture{
+.picture_junior
+{
     position: absolute;
     width: 474.36px;
     height: 477.84px;
@@ -368,13 +373,13 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 29px;
-/* identical to box height */
+    /* identical to box height */
 
 
     color: #333333;
 }
 
-/* salery from */
+/* salary from */
 
 
 .salary_from_m
@@ -397,19 +402,23 @@
 }
 
 
-/* Mask Group */
+/* Mask Middle */
 
-.mask_group2
+.mask_middle
 {
     position: absolute;
     width: 450px;
     height: 420px;
     left: 735px;
     top: 2304px;
-}
-/* Group 98 */
 
-.middle_picture
+    background: #FFFFFF;
+    border: 1px solid #55CBDC;
+    border-radius: 20px;
+}
+/* middle */
+
+.picture_middle
 {
     position: absolute;
     width: 508.37px;
@@ -465,7 +474,7 @@ color: #EF5B63;
     font-weight: 400;
     font-size: 20px;
     line-height: 46px;
-/* identical to box height, or 230% */
+    /* identical to box height, or 230% */
 
     text-transform: uppercase;
 
@@ -487,7 +496,7 @@ color: #EF5B63;
     font-weight: 700;
     font-size: 46px;
     line-height: 55px;
-/* identical to box height */
+    /* identical to box height */
 
     display: flex;
     align-items: center;
@@ -512,13 +521,12 @@ color: #EF5B63;
     font-weight: 400;
     font-size: 22px;
     line-height: 29px;
-/* identical to box height */
+    /* identical to box height */
 
     color: #333333;
 }
 
-/* salery from */
-
+/* salary from */
 
 .salary_from_s
 {
@@ -533,30 +541,35 @@ color: #EF5B63;
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
-/* identical to box height */
+    /* identical to box height */
 
     color: #333333;
 }
 
 /* Mask Group */
 
-.mask_group_3
+.mask_senior
 {
     position: absolute;
     width: 450px;
     height: 420px;
     left: 1215px;
     top: 2304px;
+
+    background: #FFFFFF;
+    border: 1px solid #EF5B63;
+    border-radius: 20px;
 }
 
-/* Group 3 */
+/* Senior picture */
 
-.senior_picture 
-{position: absolute;
-width: 511.14px;
-height: 445.26px;
-left: 1350.51px;
-top: 2342px;
+.picture_senior 
+{
+    position: absolute;
+    width: 511.14px;
+    height: 445.26px;
+    left: 1350.51px;
+    top: 2342px;
 }
 
 /* about PCA */
@@ -571,7 +584,7 @@ top: 2342px;
 }
 /* img */
 
-.image
+.img_female
 {
     position: absolute;
     width: 538.74px;
@@ -603,7 +616,7 @@ top: 2342px;
     background: #55CBDC;
     border-radius: 36px;
 }
-/* Powercode academy */
+    /* Powercode academy */
 
 .PCA
 {
@@ -618,7 +631,7 @@ top: 2342px;
     font-weight: 700;
     font-size: 64px;
     line-height: 76px;
-/* identical to box height */
+    /* identical to box height */
 
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -626,7 +639,7 @@ top: 2342px;
     color: #232F3C;
 }
 
-/* це курси... */
+    /* це курси... */
 
 .courses
 {
@@ -641,14 +654,14 @@ top: 2342px;
     font-weight: 500;
     font-size: 24px;
     line-height: 42px;
-/* or 175% */
+    /* or 175% */
 
     letter-spacing: 1px;
 
     color: #232F3C;
 }
 
-/* наша місія... */
+    /* наша місія... */
 
 .mission
 {
